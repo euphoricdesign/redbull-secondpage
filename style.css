@@ -1,0 +1,123 @@
+:root {
+    --color-dark: #15181f;
+    --color-dar-x: #2d343f;
+    --color-dark-xx: #1f232b;
+    --color-light: #ffffff;
+    --color-grey: #f5f6f8;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 300;
+    background-color: var(--color-grey);
+    color: var(--color-light);
+    letter-spacing: .05rem;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    padding: 0 10px;
+    margin:20px 0;
+}
+
+.bg-light {
+    background-color: var(--color-light)!important;
+}
+
+.bg-dark {
+    background-color: var(--color-dark)!important;
+}
+
+.p-6 {
+    padding: 4rem 112px;
+}
+
+.contact-box {
+    padding: 3rem;
+}
+
+.font-weight-bold {
+    font-weight: bold;
+}
+
+.form-control {
+    background-color: var(--color-dark-xx);
+    border: 2px solid var(--color-dark-xx);
+    border-radius: .2rem;
+    padding: 1rem 1rem;
+}
+
+.form-group {
+    margin-bottom: 35px;
+}
+
+.aceptar {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-danger {
+    padding: 7px 40px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.font-style {
+    font-style: italic;
+}
+
+.register-bg {
+    background-image: url(./img/KV_JANOZ_1x1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+footer {
+    background-color: var(--color-dark-xx);
+    width: 100%;
+}
+
+footer .logo-wrapper {
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+footer p {
+    font-size: 11px;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo-wrapper img {
+    width: 50px;
+    margin: 40px 30px;
+}
+
+.row {
+    margin: 0;
+}
+
+
+
+
+
+@media screen and (max-width:575.98px) {
+    .p-6 {
+        padding: 2rem;
+    }
+}
+
+@media screen and (max-width:1199px) {
+    .register-bg {
+        min-height: 50vh;
+        background-image: url(./img/Banner_Janoz_3_1.png);
+    }
+}
